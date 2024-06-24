@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Casa do Saber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>A Casa do Saber</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#resources">Recursos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Prepare-se para Competir e Vencer!</h2>
+            <p>Encontre recursos, dicas e estratégias para se destacar em competições acadêmicas.</p>
+            <a href="#resources" class="btn">Explore Recursos</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma plataforma dedicada a ajudar estudantes, de origem normalmente carente, a se prepararem para competições acadêmicas. Nossa missão é fornecer conteúdo de qualidade, exercícios práticos e motivação para que você alcance o seu melhor desempenho.</p>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="container">
+            <h2>Recursos</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <a class="pages" href="OlimMat.html">Olimpíadas de Matemática</a>
+                    <p>Explore questões de provas anteriores, videoaulas e exercícios práticos.</p>
+                </div>
+                <div class="resource-item">
+                    <a class="pages" href="OlimFis.html">Olimpíadas de Física</a>
+                    <p>Encontre materiais de estudo, simulados e dicas para as competições de física.</p>
+                </div>
+                <div class="resource-item">
+                    <a class="pages" href="OlimPro.html">Olimpíadas de Programação</a>
+                    <p>Aprenda algoritmos, estruturas de dados e resolva desafios de programação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 A Casa do Saber. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
