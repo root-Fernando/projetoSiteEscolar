@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíada Brasileira de Matemática das Escolas Públicas</title>
+    <link rel="stylesheet" href="MatStyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="img" src="imgs/logo3.png">
+            <h1>A Casa do Saber</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#resources">Recursos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo à OBMEP</h2>
+            <p>"A matemática é a rainha das ciências."<br>CARL F. GAUSS</p>
+            <img class="img2" src="imgs/obmep-2683709629.png"><br>
+            <a href="#resources" class="btn">Explore Recursos</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre a OBMEP</h2>
+            <p>A Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) é uma competição nacional voltada para alunos de escolas públicas brasileiras, que visa estimular o estudo da matemática e identificar talentos na disciplina.</p>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="container">
+            <h2>Recursos</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <h3>Conteúdo Didático</h3>
+                    <p>Artigos, e-books e apresentações sobre diversos tópicos básicos e avançados de matemática.</p>
+                </div>
+                <div class="resource-item">
+                    <a href="#VideoAula" class="btn">Vídeo Aulas</a>
+                    <p>Aulas ministradas por especialistas, cobrindo desde conceitos básicos até tópicos avançados.</p>
+                </div>
+                <div class="resource-item">
+                    <a href="#SimuInter" class="btn">Simulações Interativas</a>
+                    <p>Explore a matemática através de simulações interativas e modelos 3D.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="VideoAula">
+        <div class="container">
+            <h2>Vídeo Aulas</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <h3>Vídeo Aula</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=ehfzjwukid4vGKpc&amp;list=PLj5VmkwJbuF9NqkS3HnO0Rz7BJ5iXUOKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Playlist do canal Insight Edu, ótimo canal de educação para olimpíadas, é super recomendado!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SimuInter">
+        <div class="container">
+            <h2>Simulações Interativas</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <h3>PhET Interactive Simulations</h3> <img class="phet" src="imgs/phet-logo-trademarked-2606869067.png">
+                    <p>O site PhET, é um ótimo recurso de simulação que pode ser usado para o estudo de situações matemáticas, e probabilidade, assim como permutação, etc. O site pode ser acessado clicando <a href="https://phet.colorado.edu/pt_BR/">aqui</a>.</p><br>
+                    <h3>Geogebra</h3> <img class="geo" src="imgs/GeoGebra-01-1105741653.png">
+                    <p>O Geogebra é um site e software que te permite visualizar construções algébricas e geométricas em planos catesianos, 2D e 3D, sendo utilizado como um  software de visualização 3D. O site pode ser acessado clicando <a href="https://www.geogebra.org/classic?lang=pt_PT/">aqui</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 A Casa do Saber. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

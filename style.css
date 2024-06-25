@@ -20,7 +20,7 @@ body {
 header {
     background: #35424a;
     color: #ffffff;
-    padding-top: 30px;
+    padding-top: 20px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
@@ -118,4 +118,9 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.img{
+    width:  190px;
+    height: 147px;
 }
